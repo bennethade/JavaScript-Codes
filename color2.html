@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+
+    <style>
+        .box{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="box" style="padding: 20px; width: 300px;">
+        <h1 id="box">This is Heading 1</h1>
+    </div>
+
+    <button onclick="colorChanger('blue')">Blue Color</button>
+    <button onclick="colorChanger('yellow')">Yellow Color</button>
+    <button onclick="colorChanger('green')">Green Color</button>
+
+    <form action="">
+        <label for="">Name</label>
+        <input type="name" name="" id="">
+
+        <label for="">Email</label>
+        <input type="email" name="" id="">
+
+        <label for="">Password</label>
+        <input type="password" name="" id="">
+
+        <button type="submit" onclick="colorChanger('yellow')">Submit</button>
+        <button type="reset" onclick="colorChanger('lightblue')">Reset</button>
+
+    </form>
+
+
+</body>
+
+<script>
+    function colorChanger(color){
+        document.body.style.backgroundColor = color;
+    }
+</script>
+
+</html>
